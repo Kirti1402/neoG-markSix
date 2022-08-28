@@ -46,8 +46,7 @@
     padding: 1rem;
     border-radius: 5px;
     background-color: var(--button-color);
-    border: var(--button-color) ;
-    
+    border: var(--button-color) ;   
 }
 
 .info-text{
