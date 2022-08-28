@@ -2,27 +2,31 @@
 
 
 :root{
-    --primary-color:#F2C94C;
+    --primary-color:#242F9B;
     --border-color:black;
+    --button-color:#F7D716;
+    --error-color:red;
 
 }
 * {
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kalam', cursive;
   }
 
+  body{
+    background-color:var(--primary-color);
+  }
+
   nav {
     height:6rem;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
   }
-  #heading  {
-    padding: 1rem;
-    text-align: center;
-}
+
 /* placeholder should be light */
 
 #input {
@@ -49,33 +53,43 @@
 
 .output{
     padding: 1rem;
-    margin: 1rem auto;
+    margin: auto;
     height: 7rem;
     width: 30rem;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     overflow: auto;
 }
 
 .output-error{
-    border: 2px solid red;
-    color: red;
+    border: 2px solid var(--error-color);
+    color: var(--error-color);
 }
 
 button {
     border-radius: 5px;
-    background-color: var(--primary-color);
-    border: var(--primary-color);
+    background-color: var(--button-color);
+    border: var(--button-color) ;
 }
 
-#footer  {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 1.rem;
-    background-color: var(--primary-color);
+
+#box{
+    
+    border:2.5px solid var(--button-color);
+    padding: 1rem;
+    margin: auto;
+    height: 450px;
+    width: 850px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px var(--button-color);
 }
 
-#footer div, p{
+#heading,#footer{
+    font-size:medium;
     text-align: center;
+    padding: 1rem;
+    color: var(--button-color);
+    font-weight: bolder;
     max-width: 500px;
     margin: auto;
 }
