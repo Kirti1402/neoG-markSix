@@ -2,10 +2,11 @@
 
 
 :root{
-    --primary-color:#242F9B;
+    --primary-color:#FFF38C;
     --border-color:black;
     --button-color:#F7D716;
     --error-color:red;
+    --text-color:#293462;
 
 }
 * {
@@ -20,30 +21,21 @@
     background-color:var(--primary-color);
   }
 
-  nav {
-    height:6rem;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    /* background-color: var(--primary-color); */
-  }
-
-/* placeholder should be light */
-
 .input {
-    padding: 1rem;
+    padding: 15px;
     display: block;
-    margin: 1rem auto;
-    width: 30rem;
-    height: 7rem;
-    border: 1px solid var(--border-color);
+    margin: 15px auto;
+    width: 500px;
+    height:125px;
+    border: 2px solid var(--text-color);
     overflow: hidden;
     
 }
 
 .translate-button {
     display: block;
-    margin: 0.1rem auto ;
-    padding: 1rem;
+    margin: 7px auto ;
+    padding: 15px;
     border-radius: 5px;
     background-color: var(--button-color);
     border: var(--button-color) ;   
@@ -54,11 +46,11 @@
 }
 
 .output{
-    padding: 1rem;
+    padding: 15px;
     margin: auto;
-    height: 7rem;
-    width: 30rem;
-    border: 1px solid var(--border-color);
+    width: 500px;
+    height:125px;
+    border: 2px solid var(--text-color);
     overflow: auto;
 }
 
@@ -70,14 +62,14 @@
 button {
     border-radius: 5px;
     background-color: var(--button-color);
-    border: var(--button-color) ;
+    border: var(--primary-color) ;
 }
 
 
 .box{
     
     border:2.5px solid var(--button-color);
-    padding: 1rem;
+    padding: 15px;
     margin: auto;
     height: 450px;
     width: 850px;
@@ -89,10 +81,10 @@ button {
 .footer{
     font-size:large;
     text-align: center;
-    padding: 1rem;
-    color: var(--button-color);
+    padding: 15px;
+    color: var(--text-color);
     font-weight: bolder;
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -100,8 +92,8 @@ button {
 
     font-size:x-large;
     text-align: center;
-    padding: 2rem;
-    color: var(--button-color);
+    padding: 30px;
+    color: var(--text-color);
     font-weight: bolder;
     max-width: 500px;
     margin: auto;

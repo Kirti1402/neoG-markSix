@@ -8,4 +8,4 @@ Creating a application where we taking input and translating it to minion langua
 * API from [fun translations](https://funtranslations.com/)
 
 ## Live Project
-[View Project](https://minionspeaktranslations.netlify.app/)
+[BananaTranslation](https://minionspeaktranslations.netlify.app/)
