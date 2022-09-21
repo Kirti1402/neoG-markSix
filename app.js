@@ -2,16 +2,18 @@ var input = document.querySelector(".input");
 var button = document.querySelector(".translate-button");
 var output = document.querySelector(".output");
 
-var serverUrl = "https://api.funtranslations.com/translate/minion.jso";
+var serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 function constructUrl(text) {
   return serverUrl + "?" + "text=" + text;
 
 }
+
 function errorHandler(error){
   console.log("error"+ error);
   alert("Something went wrong! Try after sometime");
 }
+
 function clickHandler() {
   console.log("Inside Click Handler")
   var userInput = input.value;
