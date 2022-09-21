@@ -25,11 +25,6 @@ function clickHandler() {
         var outputResponse = data.contents.translated;
         output.innerText = outputResponse;
       }
-      // if(data.error) {
-      //   var outputResponse = data.error.message;
-      //   output.innerText = outputResponse;
-      //   output.classList.add('output-error');
-      // }
     )
     .catch(errorHandler);
 }
