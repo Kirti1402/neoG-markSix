@@ -4,6 +4,7 @@ var output = document.querySelector(".output");
 
 var serverUrl = "https://api.funtranslations.com/translate/minion.jso";
 
+
 function constructUrl(text) {
   return serverUrl + "?" + "text=" + text;
 
