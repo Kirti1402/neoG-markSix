@@ -61,6 +61,7 @@
 
 button {
     border-radius: 5px;
+    cursor: pointer;
     background-color: var(--button-color);
     border: var(--primary-color) ;
 }
